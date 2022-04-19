@@ -1,0 +1,105 @@
+body {
+  background-color: black; /* Uncomment for black text on white background */
+  font-family: Roboto !important;
+  /* background-color:#202020; /* Uncomment for white text on black background */
+}
+
+#mainDiv {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: center;
+}
+
+#outputDiv {
+  visibility: hidden;
+  width: 480px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 4px;
+}
+
+#outputTextElement {
+  text-align: left;
+  font-size: 42px;
+  font-family: monospace;
+  color: #000000; /* Uncomment for black text on white background */
+  /* color:white; /* Uncomment for white text on black background */
+}
+
+.outputText {
+  text-align: left;
+  font-size: 42px;
+  font-family: monospace;
+  color: #000000; /* Uncomment for black text on white background */
+  /* color:white; /* Uncomment for white text on black background */
+}
+
+.highlight {
+  color: #ff3030;
+}
+
+#progressBarBaseDiv {
+  width: 600px;
+  height: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: grey;
+}
+
+#progressBarDiv {
+  width: 0px;
+  height: 10px;
+  background-color: limegreen;
+}
+
+#controlButtons {
+  margin: 0px auto 0px auto;
+  text-align: center;
+}
+
+.controlButton {
+  margin: 0px 6px 0px 6px;
+  text-align: center;
+  font-size: 32px;
+  font-family: monospace;
+}
+
+#speedAndCheckBoxesDiv {
+  margin: 0px auto 0px auto;
+  text-align: center;
+}
+
+textarea {
+  border: 2px solid white;
+  width: 100%;
+  height: 400px;
+  font-family: Roboto;
+  font-size: 20px;
+  margin: 5px 0;
+  padding: 3px;
+}
+
+.UIText {
+  color: white;
+}
+
+.UIDisabledText {
+  color: #808080;
+}
+
+.UIInput {
+  background-color: black;
+  color: #ffffff;
+  border-radius: 15px;
+}
+
+.UIInputReadOnly {
+  background-color: white;
+}
+
+#controlButtons {
+  display: flex;
+}
